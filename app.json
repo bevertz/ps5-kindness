@@ -1,0 +1,21 @@
+{
+  "name": "ps5-kindness",
+  "scripts": {
+  },
+  "env": {
+    "WEB_CONCURRENCY": "3"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
