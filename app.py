@@ -15,5 +15,23 @@ def homepage():
     <p>It is currently {time}.</p>
     """.format(time=the_time)
 
+
+@app.route('/sign-up')
+def sign_up():
+    return render_template('base.html')
+
+@app.route('/login')
+def login():
+    return render_template('base.html')
+
+@app.route('/check-in')
+def check_in():
+    return render_template('base.html')
+
+@app.route('/share')
+def share():
+    return render_template('base.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
