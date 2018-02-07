@@ -12,6 +12,7 @@ def homepage():
 
     return """
     <h1>Hello heroku</h1>
+    <h1>Welcome to our group dogooders!</h1>
     <p>It is currently {time}.</p>
     """.format(time=the_time)
 
